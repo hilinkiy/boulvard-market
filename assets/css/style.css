@@ -15,6 +15,16 @@ li {
 	list-style: none;
 }
 
+body {
+	background: rgba(21, 21, 21, 1);
+}
+
+button {
+    background: none;
+	border: none;
+	cursor: pointer;
+}
+
 .container {
 	width: 100%;
 	max-width: 1100px;
@@ -98,7 +108,7 @@ li {
 	align-items: center;
 	justify-content: center;
 	height: 80%;
-    gap: 40px;
+	gap: 40px;
 }
 
 .header__title {
@@ -127,4 +137,109 @@ li {
 	align-items: center;
 	gap: 5px;
 	justify-content: center;
+}
+
+.airpods {
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+.airpods__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	gap: 30px;
+}
+
+.airpods__description {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.airpod {
+	margin-bottom: 80px;
+}
+
+.airpod__content {
+	display: grid;
+	grid-template-columns: 1fr 0.6fr 1fr;
+	align-items: center;
+	gap: 15px;
+}
+
+.airpod__description {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.iphone__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 30px;
+}
+
+.iphone__card {
+	border-radius: 6px;
+	background: rgba(255, 255, 255, 1);
+	padding: 15px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+
+.iphone__title {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.iphone__price {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.footer {
+	box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+	background: rgba(40, 40, 40, 1);
+    padding: 80px 0;
+    margin-top: 55px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__payment {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
